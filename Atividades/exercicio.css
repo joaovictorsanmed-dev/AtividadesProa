@@ -1,0 +1,57 @@
+#azul{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: 10px;
+    left: 400px;
+    z-index: 1;
+}
+#vermelha{
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: 10px;
+    left: 600px;
+    z-index: 1;
+}
+#verde{
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(0, 255, 76);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: 110px;
+    left: 400px;
+    z-index: 1;
+}
+#amarela{
+    position: absolute;
+    width: 1000px;
+    height: 416px;
+    background-color: rgb(255, 251, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 8px solid red;
+    box-sizing: border-box; /* coloca a borda para dentro do tela */
+    top: 160px;
+    left: 400px;
+    z-index: 1;
+}
+#cinza{
+    position: absolute;
+    width: 1000px;
+    height: 64px;
+    background-color: rgb(45, 46, 46);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    top: 576px;
+    left: 400px;
+    z-index: 1;
+}

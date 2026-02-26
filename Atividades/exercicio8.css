@@ -1,0 +1,53 @@
+#FUNDO{
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    margin-top: 100px;
+    margin:auto;
+}
+body{
+    text-align: center;
+}
+
+*{
+
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#AZUL{
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: #00f;
+    float: left;
+}
+#VERMELHO{
+    position: relative;
+    width: 800px;
+    height: 100px;
+    background-color: #f00;
+    float: left;
+}
+#VERDE{
+    position: relative;
+    width: 1000px;
+    height: 50px;
+    background-color: #0f0;
+    clear: left;
+}
+#AMARELO{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    background-color: yellow;
+    border: 5px solid #F00;
+    box-sizing: border-box;
+}
+#CINZA{
+    position: relative;
+    width: 1000px;
+    height: 50px;
+    background-color: gray;
+}

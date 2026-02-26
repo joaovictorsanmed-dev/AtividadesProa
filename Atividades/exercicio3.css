@@ -1,0 +1,121 @@
+#laranja{
+    position: absolute;
+    width: 700Px;
+    height: 200px;
+    background-color: hsl(41, 97%, 47%);
+    left: 377px;
+    top: 100px;
+    z-index: 1;
+}
+#barra{
+    position: absolute;
+    width: 350px;
+    height: 25px;
+    background-color: hsl(0, 20%, 99%);
+    left: 540px;
+    top: 185px;
+    z-index: 1;
+}
+#quadrado{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: hsl(0, 0%, 34%);
+    left: 890px;
+    top: 185px;
+    z-index: 1;
+}
+#laranja2{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background-color: hsl(41, 97%, 47%);
+    left: 430px;
+    top: 380px;
+    z-index: 1;
+}
+#cinza1{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background-color: hsl(48, 3%, 71%);
+    left: 580px;
+    top: 380px;
+    z-index: 1;
+}
+#ciano1{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background-color: hsl(187, 99%, 50%);
+    left: 730px;
+    top: 380px;
+    z-index: 1;
+}
+#cinza2{
+    position: absolute;
+    width: 130px;
+    height: 280px;
+    background-color: hsl(48, 3%, 71%);
+    left: 880px;
+    top: 380px;
+    z-index: 1;
+}
+#ciano2{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background-color: hsl(187, 99%, 50%);
+    left: 430px;
+    top: 530px;
+    z-index: 1;
+}
+#laranja3{
+    position: absolute;
+    width: 280px;
+    height: 130px;
+    background-color: hsl(41, 97%, 47%);
+    left: 580px;
+    top: 530px;
+    z-index: 1;
+}
+#quadradocinza1{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border: 3px solid #000;
+    left: 530px;
+    top: 335px;
+    z-index: 1;
+}
+#quadradocinza2{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border: 3px solid #000;
+    left: 630px;
+    top: 335px;
+    z-index: 1;
+}
+#quadradocinza3{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border: 3px solid #000;
+    left: 730px;
+    top: 335px;
+    z-index: 1;
+}
+#quadradocinza4{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border: 3px solid #000;
+    left: 830px;
+    top: 335px;
+    z-index: 1;
+}
