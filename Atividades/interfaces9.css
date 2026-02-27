@@ -1,0 +1,78 @@
+#FUNDO{
+    position: relative;
+    background-color: rgb(185, 185, 185);
+    width: 1880px;
+    height: 900px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+#TOPO{
+    position: relative;
+    background-color: rgb(4, 150, 150);
+    height: 150px;
+    text-align: center;
+    padding:30px;
+    font-size: 50px;
+}
+
+#LE{
+position: relative;
+background-color: rgb(105, 163, 218);
+width: 150px;
+height: 700px;
+float: left;
+}
+
+#LD{
+    position: relative;
+    background-color: rgb(105, 163, 218);
+    width: 300px;
+    height: 700px;
+    float: right;
+    margin-top: -18px;
+}
+
+#RODAPE{
+    position: absolute;
+    width: 1880px;
+    height: 80px;
+    background-color: rgb(61, 96, 252);
+    color: rgb(0, 0, 0);
+    top: 835px;
+    z-index: 1;
+}
+
+#Q1{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    background-color: hsl(0, 0%, 100%);
+    left: 1600px;
+    top: 160px;
+    z-index: 2;
+}
+#Q2{
+    position: absolute;
+    width: 250px;
+    height: 200px;
+    background-color: hsl(0, 0%, 100%);
+    left: 1600px;
+    top: 370px;
+    z-index: 2;
+}
+
+img{
+    position: absolute;
+    left: 1430px;
+    top: 650px;
+    z-index: 3;
+}
