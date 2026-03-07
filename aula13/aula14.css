@@ -1,0 +1,94 @@
+/* CSS reset */
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: verdana;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-image: url(imagens/guitarra_fundo_body.jpg);
+    background-size: 100% 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+}
+
+#container{
+position: relative;
+    width: 90%;
+    height: 800px;
+    background-color: rgba(221, 113, 113, 0.479);
+    margin: auto;
+}
+
+#fundo{
+position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url(imagens/guitarras_header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 40px;
+}
+#menu{
+    position: relative;
+    background-color: white;
+    width: 650px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+}
+#menu p{
+ position: relative;
+ color: black;
+}
+
+#vermelho{
+position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(197, 43, 5);
+    text-align: left;
+    font-size: 20px;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cards1{
+    position: relative;
+    width: 43%;
+    height: 300px;
+    background-color: rgb(245, 149, 149);
+    text-align: left;
+    padding: 20px;
+    
+}
+#loja{
+    font-size: 25px;
+}
+#loja2{
+    font-size: 15px;
+}
+
+
+.cards2{
+    position: relative;
+    width: 43%;
+    height: 300px;
+    background-image: url(imagens/loja.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat
+}
