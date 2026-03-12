@@ -1,0 +1,311 @@
+/* CSS reset */
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: verdana;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  background-image: url(imagens/guitarra_fundo_body.jpg);
+  background-size: 100% 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+}
+
+#container {
+  position: relative;
+  width: 90%;
+  height: auto;
+  background-color: rgba(221, 113, 113, 0.479);
+  margin: auto;
+}
+
+#fundo {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url(imagens/guitarras_header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding: 40px;
+}
+#menu {
+  position: relative;
+  width: 650px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 15px;
+}
+#menu p {
+  background-color: white;
+  width: 20%;
+  height: 60px;
+  position: relative;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu p:hover {
+  transform: translateY(8px);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+  transition: ease all 0.5s;
+}
+
+#vermelho {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(197, 43, 5);
+  text-align: left;
+  font-size: 20px;
+  top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cards1 {
+  position: relative;
+  width: 43%;
+  height: 300px;
+  background-color: rgb(245, 149, 149);
+  text-align: left;
+  padding: 20px;
+}
+#loja {
+  font-size: 30px;
+}
+#loja2 {
+  font-size: 20px;
+}
+
+.cards2 {
+  position: relative;
+  width: 43%;
+  height: 300px;
+  background-image: url(imagens/loja.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#violao {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(253, 248, 248);
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: black;
+}
+
+.cards3 {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+  height: 400px;
+  color: black;
+  font-size: 20px;
+  flex-direction: column;
+}
+
+.cards3 img {
+  position: relative;
+  width: 170px;
+  height: 170px;
+}
+
+.cards3 p {
+  margin-top: 40px;
+}
+
+.cards3 span {
+  color: red;
+  font-weight: bold;
+}
+
+#mapa {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(155, 101, 32);
+  top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(255, 255, 255);
+}
+
+.local iframe {
+  width: 700px;
+  height: 400px;
+  background-color: rgb(63, 136, 136);
+  border-radius: 10px;
+}
+
+.nossa_loja {
+  width: 700px;
+  height: 400px;
+  background-color: rgb(189, 135, 135);
+}
+
+#Nossa_loja {
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+#rua {
+  position: relative;
+  width: 600px;
+  font-size: 20px;
+  margin-top: 80px;
+  text-align: left;
+  left: 50px;
+}
+
+#acesse_tmb {
+  position: relative;
+  width: 98%;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.lados {
+  width: 50%;
+  height: auto;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.entre {
+  width: 400px;
+  font-size: 30px;
+}
+input {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-left: 23px;
+  margin-bottom: 10px;
+}
+
+.entre1 {
+  width: 400px;
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+#email {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-left: 23px;
+}
+
+.entre2 {
+  width: 500px;
+  font-size: 30px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
+
+#msg {
+  width: 400px;
+  height: 200px;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+
+button {
+  width: 80%;
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #ddd;
+  cursor: pointer;
+  margin-bottom: 120px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.fundo3,
+#poxa2 {
+  color: rgb(11, 8, 172);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#rodape {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#loja3 {
+  font-size: 30px;
+  color: white;
+}
+
+#rua3 {
+  font-size: 20px;
+  color: white;
+}
+
+#sp3 {
+  font-size: 20px;
+  color: white;
+}
+
+#fundu {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#img2 {
+  height: 50px;
+  width: 50px;
+}
