@@ -6,7 +6,7 @@
 }
 main{
     position: relative;
-    width: 100%;
+    width: 90%;
     height: auto;
     background-color: rgb(255, 255, 255);
     margin: auto;
@@ -32,9 +32,27 @@ main{
     display: flex; 
     align-items: center; 
     flex-direction: row; 
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 25px;
 }
+
+#Menu p{
+    width: 18%;
+    height: 44px;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 14px;
+}
+
+#Menu p:hover{
+    background-color: #fff;
+    color: blue;
+    transition: 2s all;
+}
+
 #Menu2{
     position: relative;
     width: 20%;
@@ -53,8 +71,6 @@ main{
     text-decoration: none;
     border-bottom: 1px solid white;
 }
-
-
 
 
 section{
@@ -116,6 +132,7 @@ section{
 
 }
 #nav2{
+    position: relative;
     display: flex; 
     align-items: center; 
     flex-direction: row; 
@@ -141,3 +158,123 @@ footer{
     clear: left;
 }
 
+/* ------------------------ visualização mobile ---------------------------- */
+@media only screen and (max-width:640px){
+
+    main{
+        width: 98%;
+    }
+    
+    #Menu{
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+    }
+
+    #Menu p{
+        width: 100%;
+    }
+
+    #Menu2, aside, #div2, #p2{
+        display: none;
+    }
+    section{
+        width: 100%;
+        top: 20px;
+    }
+
+    #nav2{
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card1 img{
+        position: relative;
+        width: 100%;
+        height: 90%;
+        background-color: black;
+        float: left;
+        top: 17px;
+        }
+
+    .card2 img{
+        position: relative;
+        width: 100%;
+        height: 90%;
+        background-color: rgb(37, 3, 187);
+        float: left;
+        top: 17px;
+        }
+        .card3 img{
+         position: relative;
+         width: 102%;
+         height: 400%;
+        background-color: rgb(207, 0, 0);
+        float: left;
+        top: 17px;
+        left: -3px;
+        }
+        
+        footer{
+            top: 900px;
+        }
+}
+
+/* ------------------------ visualização tablet ---------------------------- */
+
+@media only screen and (min-width:641px){
+    @media only screen and (max-width:1120px){
+        main{
+            width: 90%;
+        }
+
+        #Menu{
+            height: 80%;
+            flex-wrap: wrap;
+        }
+        #Menu p{
+            width: 33.33%;
+            color: yellow;
+        }
+
+        #Menu2, aside{
+            display: none; /* retira o componente do layout */
+        }
+        
+        section{
+            width: 111%;
+            left: -54px;
+        }
+        .card1 img{
+        position: relative;
+        width: 180px;
+        height: 100px;
+        background-color: black;
+        float: left;
+        top: 17px;
+        left: 40px;
+        }
+        .card2 img{
+         position: relative;
+         width: 180px;
+         height: 100px;
+         background-color: rgb(37, 3, 187);
+        float: left;
+         top: 17px;
+         left: 25px;
+
+        }
+        .card3 img{
+         position: relative;
+         width: 180px;
+         height: 100px;
+        background-color: rgb(207, 0, 0);
+         float: left;
+         top: 17px;
+         left: 10px;
+        }
+        footer{
+            top: -50px;
+        }
+    }
+}
